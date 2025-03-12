@@ -1,6 +1,6 @@
 CREATE DATABASE Bibliotheque;
 USE Bibliotheque;
-//alao utilusateur io de solohy enseignant ndraiky etudiants 
+//alao utilisateur io de solohy enseignant ndraiky etudiants 
 CREATE TABLE Utilisateurs (
     id_utilisateur INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
