@@ -1,13 +1,28 @@
 CREATE DATABASE Bibliotheque;
 USE Bibliotheque;
-//alao utilisateur io de solohy enseignant ndraiky etudiants 
+
 CREATE TABLE Utilisateurs (
     id_utilisateur INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,
     mot_de_passe VARCHAR(255) NOT NULL,
-    role ENUM('membre', 'bibliothecaire') DEFAULT 'membre'
+    role ENUM('membre', 'bibliothecaire', 'etudiant', 'enseignat') DEFAULT 'membre'
 );
+
+/*CREATE TABLE Etudiant (
+    id_etudiant INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(120) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    mot_de_passe VARCHAR(200) NOT NULL,
+    role ENUM('membre','bibliothecaire') DEFAULT 'membre' 
+);
+CREATE TABLE Enseignant(
+    id_enseignant INT AUTO_INCREMENT PRIMARY KEY, 
+    nom VARCHAR(100) NOT NULL, 
+    email VARCHAR(100) UNIQUE NOT NULL,
+    mot_de_passe VARCHAR(200) NOT NULL,
+    role ENUM('membre','bibliothecaire') DEFAULT 'membre'
+)*/
 
 CREATE TABLE Livres (
     id_livre INT AUTO_INCREMENT PRIMARY KEY,
