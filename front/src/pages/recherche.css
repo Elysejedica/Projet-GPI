@@ -1,0 +1,12 @@
+img{
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+#move{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 800px;
+}

@@ -1,0 +1,18 @@
+#retour{
+    display: flex;
+    flex-direction: column;
+    padding-left: 470px;
+}
+h1{
+    padding-bottom: 50px;
+}
+button{
+    background-color: rgb(8, 179, 122);
+    color: aliceblue;
+    width: 150px;
+    height: 35px;
+    margin-top: 40px;
+    margin-left: 70px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 1px rgb(223, 217, 193);
+}

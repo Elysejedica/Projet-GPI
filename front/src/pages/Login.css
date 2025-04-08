@@ -1,0 +1,33 @@
+button{
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+#buta{
+    background-color: rgb(21, 255, 0);
+    margin-top: 45px;
+    width: 500px;
+    height: 30px;
+    box-shadow: 0px 0px 10px 1px cornsilk;
+    border-radius: 5px;
+}
+input{
+    border-radius: 5px;
+    padding-left: 5px;
+}
+#butb{
+    background-color: rgb(255, 0, 179);
+    margin-top: 25px;
+    width: 500px;
+    height: 30px;
+    box-shadow: 0px 0px 10px 1px cornsilk;
+    border-radius: 5px;
+    margin-left: -400px;
+}
+select{
+    margin-left: 50px;
+    width: 400px;
+    background-color: rgb(96, 178, 250);
+}
+option{
+    background-color: aliceblue;
+}
